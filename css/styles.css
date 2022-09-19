@@ -40,6 +40,7 @@ body {
 }
 
 .menu {
+  top: 0px;
   z-index: 999;
   position: fixed;
   background-color: #f7576c;
@@ -890,10 +891,16 @@ input[type=submit]:hover {
   .cards__about-us {
     grid-template-columns: 1fr;
   }
+  .card1__about-us {
+    margin-bottom: 10vh;
+  }
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1300px) {
   .cards__about-us {
     grid-template-columns: 1fr;
+  }
+  .card1__about-us {
+    margin-bottom: 10vh;
   }
 }
 /* FIN ABOUT US */
