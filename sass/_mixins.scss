@@ -1,0 +1,19 @@
+@mixin crear-flexbox($justify) {
+    display: flex;
+    justify-content: $justify;
+    align-items: center;
+}
+
+@mixin text-align-flex($justify){
+    display: flex;
+    justify-content: $justify;
+    text-align: center;
+}
+
+@mixin arreglar-imagen {
+    background: {
+        repeat: no-repeat;
+        size: cover;
+        position: center;
+    };
+}
