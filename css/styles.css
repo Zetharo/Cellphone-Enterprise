@@ -1728,6 +1728,7 @@ input[type=submit]:hover {
   font-family: "poppins", sans-serif;
   justify-content: center;
   text-align: center;
+  font-weight: bold;
   padding-top: 120px;
   font-size: 35px;
   padding-bottom: 20px;
@@ -1746,27 +1747,23 @@ input[type=submit]:hover {
   border-bottom: 1px solid #fff;
   box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.6);
 }
-
-.logo__productos {
+.menu__productos .logo__productos {
   color: #fff;
   font-size: 35px;
   padding: 0 80px;
   font-weight: bold;
 }
-
-.menu__items__productos {
+.menu__productos .menu__items__productos {
   display: flex;
   list-style: none;
   margin-right: 30px;
   padding-top: 15px;
 }
-
-.menu__items__productos li {
+.menu__productos .menu__items__productos li {
   border-radius: 3px;
   margin: 0 5px;
 }
-
-.menu__items__productos a {
+.menu__productos .menu__items__productos a {
   padding: 7px 13px;
   text-decoration: none;
   font-size: 18px;
@@ -1775,13 +1772,11 @@ input[type=submit]:hover {
   text-transform: uppercase;
   color: #fff;
 }
-
-.enlaces__productos {
+.menu__productos .enlaces__productos {
   text-decoration: none;
   color: #fff;
 }
-
-.enlaces__productos:hover {
+.menu__productos .enlaces__productos:hover {
   color: white;
 }
 
@@ -1811,6 +1806,7 @@ input[type=submit]:hover {
   display: flex;
   justify-content: center;
   text-align: center;
+  font-weight: bold;
   margin-top: 15px;
   margin-bottom: 0%;
   padding-top: 40px;
@@ -1826,9 +1822,13 @@ input[type=submit]:hover {
   justify-content: center;
 }
 
-.container__cards__products {
+.custom-container {
   position: relative;
-  top: -120px;
+  top: 20px;
+}
+.custom-container .row {
+  margin: 0px;
+  padding: 0px;
 }
 
 /* MEDIA QUERYS */

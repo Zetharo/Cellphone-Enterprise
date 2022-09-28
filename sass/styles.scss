@@ -1877,6 +1877,7 @@ input[type="submit"]:hover{
     font-family: "poppins", sans-serif;
     justify-content: center;
     text-align: center;
+    font-weight: bold;
     padding-top: 120px;
     font-size: 35px;
     padding-bottom: 20px;
@@ -1894,44 +1895,45 @@ input[type="submit"]:hover{
     text-align: center;
     border-bottom: 1px solid map-get($map: $font-sz__and-colors, $key: 'secondary-color');
     box-shadow: 5px 0px 10px rgba(0, 0, 0, .6);
-}
+        
+    .logo__productos{
+        color: map-get($map: $font-sz__and-colors, $key: 'secondary-color');
+        font-size: 35px;
+        padding: 0 80px;
+        font-weight: bold;
+    }
 
-.logo__productos{
-    color: map-get($map: $font-sz__and-colors, $key: 'secondary-color');
-    font-size: 35px;
-    padding: 0 80px;
-    font-weight: bold;
-}
+    .menu__items__productos{
+        display: flex;
+        list-style: none;
+        margin-right: 30px;
+        padding-top: 15px;
+    }
 
-.menu__items__productos{
-    display: flex;
-    list-style: none;
-    margin-right: 30px;
-    padding-top: 15px;
-}
+    .menu__items__productos li{
+        border-radius: 3px;
+        margin: 0 5px;
+    }
 
-.menu__items__productos li{
-    border-radius: 3px;
-    margin: 0 5px;
-}
+    .menu__items__productos a{
+        padding: 7px 13px;
+        text-decoration: none;
+        font-size: 18px;
+        display: block;
+        font-family: "raleway", sans-serif;
+        text-transform: uppercase;
+        color: map-get($map: $font-sz__and-colors, $key: 'secondary-color');
+    }
 
-.menu__items__productos a{
-    padding: 7px 13px;
-    text-decoration: none;
-    font-size: 18px;
-    display: block;
-    font-family: "raleway", sans-serif;
-    text-transform: uppercase;
-    color: map-get($map: $font-sz__and-colors, $key: 'secondary-color');
-}
+    .enlaces__productos{
+        text-decoration: none;
+        color: map-get($map: $font-sz__and-colors, $key: 'secondary-color');
+    }
 
-.enlaces__productos{
-    text-decoration: none;
-    color: map-get($map: $font-sz__and-colors, $key: 'secondary-color');
-}
+    .enlaces__productos:hover{
+        color: white;
+    }
 
-.enlaces__productos:hover{
-    color: white;
 }
 
 .parrafo-destacado{
@@ -1960,6 +1962,7 @@ input[type="submit"]:hover{
     display: flex;
     justify-content: center;
     text-align: center;
+    font-weight: bold;
     margin-top: 15px;
     margin-bottom: 0%;
     padding-top: 40px;
@@ -1975,9 +1978,13 @@ input[type="submit"]:hover{
     justify-content: center;
 }
 
-.container__cards__products{
+.custom-container{
     position: relative;
-    top: -120px;
+    top: 20px;
+    .row{
+        margin: 0px;
+        padding: 0px;
+    }
 }
 
 /* MEDIA QUERYS */
