@@ -689,13 +689,6 @@ input[type=submit]:hover {
   margin-bottom: 20vh;
 }
 
-.container-fluid {
-  margin: 0;
-  padding: 0;
-  position: relative;
-  top: 157px;
-}
-
 .card1__about-us:hover {
   background-color: rgba(245, 118, 135, 0.377);
 }
